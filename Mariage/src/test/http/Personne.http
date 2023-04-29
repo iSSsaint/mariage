@@ -1,0 +1,28 @@
+### GET ALL
+
+GET http://localhost:8080/personne/all
+Authorization: Basic user password
+
+### ADD
+
+POST http://localhost:8080/personne/add
+Content-Type: application/json
+Authorization: Basic user password
+
+{
+  "cin": "321",
+  "nom": "fjwi",
+  "prenom": "anan"
+}
+
+### GET ID
+
+POST http://localhost:8080/personne/find/1
+Content-Type: application/json
+Authorization: Basic user password
+
+{
+  "cin": "321",
+  "nom": "fjwi",
+  "prenom": "anan"
+}
